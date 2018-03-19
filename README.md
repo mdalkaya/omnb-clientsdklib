@@ -13,7 +13,7 @@ This adds the OMWebPluginLib to the window object. Note that this is not UMD com
     <script src="./OMWebPluginLib/plugin/index.js"></script>
 ```
 
-#Usage
+##Usage
 
 ``` index.js
 
@@ -44,7 +44,7 @@ string systemId	= "";     //OpenMedia System ID or blank if current System
 	
  ```
  
- #Methods
+ ##Methods
 
 The following methods are exposed by the Client API
  
@@ -57,7 +57,7 @@ setFields(docId: DocumentId, fields: ReadonlyArray<Field>): Promise<void>;
 getCurrentDocumentId(): Promise<OMApi.DocumentId>;
 
 
-#TypeScript definition
+##TypeScript definition
 
 ```
 declare namespace OMWebPluginLib {
